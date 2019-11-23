@@ -9,15 +9,10 @@ struct ContentView: View {
                 TabView{
                     SportEventListView().tabItem{
                         Text("Eventos por Deporte")
-                        Image("ic_home")
-                    }
-        //            FavoriteView().tabItem{
-        //                Text("Favorites")
-        //                Image("ic_favorite")
-        //            }
-                    
-                }
-            }
+                        Image(systemName: "ic_home")
+                    }.navigationBarTitle("").navigationBarHidden(false)
+                }.navigationBarTitle("").navigationBarHidden(true)
+        }
     }
     
     

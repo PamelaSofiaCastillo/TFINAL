@@ -19,6 +19,9 @@
 		583A7A632388FD3D006D4460 /* SportEventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583A7A622388FD3D006D4460 /* SportEventListView.swift */; };
 		583A7A672388FE19006D4460 /* SportEventListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583A7A662388FE19006D4460 /* SportEventListViewModel.swift */; };
 		583A7A692388FE98006D4460 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583A7A682388FE98006D4460 /* Services.swift */; };
+		583A7A6B23890E67006D4460 /* SportEventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583A7A6A23890E67006D4460 /* SportEventDetailView.swift */; };
+		583A7A6D23891ACE006D4460 /* SportEventDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583A7A6C23891ACE006D4460 /* SportEventDetailViewModel.swift */; };
+		583A7A6F23894040006D4460 /* SportEventUserRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583A7A6E23894040006D4460 /* SportEventUserRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		583A7A622388FD3D006D4460 /* SportEventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportEventListView.swift; sourceTree = "<group>"; };
 		583A7A662388FE19006D4460 /* SportEventListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportEventListViewModel.swift; sourceTree = "<group>"; };
 		583A7A682388FE98006D4460 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		583A7A6A23890E67006D4460 /* SportEventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportEventDetailView.swift; sourceTree = "<group>"; };
+		583A7A6C23891ACE006D4460 /* SportEventDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportEventDetailViewModel.swift; sourceTree = "<group>"; };
+		583A7A6E23894040006D4460 /* SportEventUserRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportEventUserRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,8 @@
 			children = (
 				583A7A5F2388F936006D4460 /* SportEventRowView.swift */,
 				583A7A622388FD3D006D4460 /* SportEventListView.swift */,
+				583A7A6A23890E67006D4460 /* SportEventDetailView.swift */,
+				583A7A6E23894040006D4460 /* SportEventUserRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -121,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				583A7A662388FE19006D4460 /* SportEventListViewModel.swift */,
+				583A7A6C23891ACE006D4460 /* SportEventDetailViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -198,12 +207,15 @@
 			files = (
 				583A7A482388D269006D4460 /* prueba.xcdatamodeld in Sources */,
 				583A7A602388F936006D4460 /* SportEventRowView.swift in Sources */,
+				583A7A6F23894040006D4460 /* SportEventUserRowView.swift in Sources */,
 				583A7A672388FE19006D4460 /* SportEventListViewModel.swift in Sources */,
 				583A7A5E2388F2DE006D4460 /* SportEvent.swift in Sources */,
 				583A7A632388FD3D006D4460 /* SportEventListView.swift in Sources */,
+				583A7A6B23890E67006D4460 /* SportEventDetailView.swift in Sources */,
 				583A7A432388D269006D4460 /* AppDelegate.swift in Sources */,
 				583A7A4A2388D269006D4460 /* ContentView.swift in Sources */,
 				583A7A692388FE98006D4460 /* Services.swift in Sources */,
+				583A7A6D23891ACE006D4460 /* SportEventDetailViewModel.swift in Sources */,
 				583A7A452388D269006D4460 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
